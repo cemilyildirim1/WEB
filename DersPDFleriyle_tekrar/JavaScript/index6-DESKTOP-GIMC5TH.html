@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        var txt = "abcd"
+        var sln = txt.length;
+        document.write(sln)
+    </script>
+    <p id="id"></p>
+
+    <script>
+        var txt = "bu gün hava çok güzel"
+        document.getElementById("id").innerHTML=txt.indexOf("u gün");
+    </script>
+
+    <p id="id2"></p>
+    <script>
+        var txt = "bu b gün b hava çok güzel";
+        var sln = txt.lastIndexOf("b")
+        document.getElementById("id2").innerHTML=sln;
+
+
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            box-sizing: border-box;
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+
+
+    <div class="a" style="background-color: blue;width: 125px;height: 125px;float: left;margin: 10px;">
+
+        <div class="plus" style="text-align: center;line-height: 3;font-size: 40px;">+</div>
+
+    </div>
+
+
+    </div>
+    <div class="b" style="background-color: blue;width: 125px;height: 125px;float: left;margin: 10px;">
+
+        <div class="plus" style="text-align: center;line-height: 3;font-size: 40px;">-</div>
+
+
+
+    </div>
+
+    <div class="cevap" style="background-color: blue;width: 125px;height: 125px;float: left;margin: 10px;">
+
+        <div class="plus" style="text-align: center;font-size: 40px;">
+            <p class="parag">0</p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script>
+
+            $(document).ready(function () {
+             var sonuc = 0;
+
+                $(".a").on("click", function () {
+                    
+                    sonuc+=1;
+                    $(".parag").html(sonuc);
+
+                    if(sonuc >0){
+                        
+                        $(".cevap").css("background-color","yellow")
+                        
+                    }else if(sonuc ==0){
+                        $(".cevap").css("background-color","blue")
+                    }
+            
+                });
+
+
+                $(".b").on("click", function () {
+                    sonuc -=1;
+
+                    $(".parag").html(sonuc);
+                    if(sonuc <0){
+                        
+                        $(".cevap").css("background-color","red")
+                        
+                    }else if(sonuc ==0){
+                        $(".cevap").css("background-color","blue")
+                    }
+
+                    
+
+                });
+                
+
+
+                
+
+            });
+        </script>
+</body>
+
+</html>

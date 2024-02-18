@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="parent" id="parent">
+        asdasd
+        <div class="child" id="child">
+            asdasdasd
+
+        </div>
+    </div>
+
+    <script>
+        var parent = document.getElementById("parent");
+        var child = document.getElementById("child");
+        var newchild = document.createTextNode("bu bir yeni paragraftır.")
+        parent.replaceChild(newchild,child)
+        // parent.removeChild(child)
+    </script>
+</body>
+</html>

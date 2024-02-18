@@ -1,0 +1,19 @@
+h1{
+    margin: 40px 40px 40px 40px  ;
+    padding:20px 20px 20px 20px ;
+    color: navy;
+    background-color:red;
+}
+p.merkez{
+    /* yorum cart curt*/
+    color: aquamarine;
+    text-align: center;
+   
+}
+.merkez{
+    color: red;
+    text-align: center;
+}
+#merkez{
+    color: blueviolet;
+}

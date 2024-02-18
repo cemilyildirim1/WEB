@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" onclick="myFunction()">Try it</button>
+    <button type="button" onclick="iFunction()">Try it to new function</button>
+    <p id="id"></p>
+
+    <script>
+        function myFunction(){
+            var txt;
+            if (confirm("Birine tıkla!")){
+                txt="u pressed TAMAM!";
+            }
+            else{
+                txt="u pressed İPTAL!";
+            }
+            document.getElementById("id").innerHTML=txt;
+        }
+
+        function iFunction(){
+            var result = "Bu sayfayı terk etmek istiyormusun."
+
+            if (confirm(result)==true){
+                alert("Sayfayı ziyaret ettiğin için teşekkürler.");
+                window.location='https://www.google.com';
+            }
+            else {
+                alert("Bizimle kaldın teşekkürler.")
+            }    
+            
+
+        }
+    </script>
+    <script>
+        var user =prompt("Lütfen yaşınızı giriniz");
+        alert("Yaşınız : " + user);
+    </script>
+
+    
+
+
+
+</body>
+</html>

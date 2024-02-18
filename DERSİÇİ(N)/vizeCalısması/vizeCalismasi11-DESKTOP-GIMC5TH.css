@@ -1,0 +1,23 @@
+p.bas1{
+    background:linear-gradient(red ,blue);
+}
+p.bas2{
+    background: linear-gradient(to right,red,blue,black,orange,green );
+
+}
+h1{
+    text-shadow:2px 3px;
+    color: aqua;
+}
+div{
+    border: solid;
+    box-shadow: 10px 10px 5px grey;
+}
+
+div.kas{
+    background-image: url(../ımages/indir.jpg),url(../ımages/download.jpg);
+    background-repeat:no-repeat,no-repeat;
+    background-position: right top,bottom right;
+    padding: 150px;
+    
+}

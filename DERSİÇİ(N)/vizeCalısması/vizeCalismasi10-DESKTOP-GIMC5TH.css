@@ -1,0 +1,11 @@
+a:link , a:visited  {
+    text-decoration: none;
+    color: aqua;
+    padding: 15px 25px;
+    background-color: black;
+    display: inline-block;
+    text-align: center;
+}
+a:hover , a:active{
+    background-color: red;
+}

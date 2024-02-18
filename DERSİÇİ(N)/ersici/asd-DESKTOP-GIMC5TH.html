@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSSH4</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box ;
+        }
+        .nav{
+            display: block;
+            background:gray;
+
+        }
+        .nav-element{
+            display: inline-block;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            padding-left: 30px;
+            padding-right: 30px;
+            color: white;
+        }
+        #container{
+            display: inline;
+            float: left;
+            height: 700px;
+            padding-left: 15px;
+        }
+        .cleft{
+            background-color: red;
+            width: 30%;
+            color:white;
+        }
+        .cright{
+            background-color: white;
+            width: 70%;
+            color:gray;
+        }
+        .imagel{
+            background-color: aliceblue;
+            height: 200px;
+            width: 90%;
+            padding-top:15px;
+        }
+        .imagel-sm{
+            margin-top: 10px;
+            margin-bottom: 10px;
+            height: 60px;
+            width: 90%;
+            padding-top:15px;
+        }
+        .imager{
+            padding: 10px;
+            height: 200px;
+            width: 95%;
+            padding-top:15px;
+        }
+        .mytext{
+            padding-top:15px;
+
+        }
+        .mytitle1{
+            padding-top: 30px;
+            color:white;
+        }
+        .mytitle2{
+            padding-top: 30px;
+            color:black;
+        }
+        @media screen and (max-width: 600px) {
+        .nav-element {
+            width: 100%;
+            text-align: center;
+        }
+        .cleft {
+            width: 100%;
+        }
+        }   
+    </style>
+</head>
+<body>
+    <head>
+        <div class="nav">
+            <a class="nav-element">Link</a>
+            <a class="nav-element">Link</a>
+            <a class="nav-element">Link</a>
+            <a class="nav-element">Link</a>
+        </div>
+    </head>
+    <main>
+        <section>
+            <div id="container" class="cleft">
+                <h2 class="mytitle1">Hakkımda</h2>
+                <div class="imagel"> image </div>
+                <p class="mytext">Lorem ipsum dolor sit amet.</p>
+                <h3 class="mytitle1">More Text</h3>
+                <p class="mytext">Lorem ipsum dolor sit amet.</p>
+                <div class="imagel-sm" style="background-color: white;"></div>
+                <div class="imagel-sm" style="background-color: white;"></div>
+                <div class="imagel-sm" style="background-color: white;"></div>
+            </div>
+        </section>
+        <section >
+            <div id="container" class="cright">
+                <h2 class="mytitle2">ÇALIŞTIĞIM YERLER</h2>
+                <div class="imager" style="background-color:black">Image</div>
+                <p class="mytext">İçerik</p>
+                <p class="mytext">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas magni rem asperiores voluptatem suscipit aspernatur, adipisci, earum, quo corporis quaerat dolorum. Autem dignissimos qui quae necessitatibus voluptatem fugiat perspiciatis magni labore itaque? Ratione, vitae? Eligendi, fugit enim cumque consequatur nobis voluptates unde pariatur dicta atque sed, sequi aliquid illo possimus.</p>
+                <h2 class="mytitle2">EĞİTİMİM</h2>
+                <div class="imager" style="background-color:black;">Image</div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

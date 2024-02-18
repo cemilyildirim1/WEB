@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.cerceve{
+    width: 1200px;
+    margin: 10px auto;
+}
+.linkler{
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(5,100px);
+    background-color: red;
+    align-items: center;
+    justify-items: center;
+}
+.linkler a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.header{
+    background-color: aqua;
+    display: grid;
+    grid-template: 90px/150px 1050px;
+    padding: 15px;
+}
+.slogan{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+
+}
+.icerik{
+    display: grid;
+    grid-template:auto/200px 1000px;
+}
+.menu{
+    display: grid;
+    background-color: aqua;
+    border: solid black 1px;
+    grid-template-rows: repeat(5,50px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.menu a{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+.menu a:hover{
+    background-color: black;
+}
+.yazilar{
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.yazilar h1{
+    margin-bottom: 10px;
+}
+.yazilar p img{
+    margin-right: 10px;
+    float: left;
+    display: block;
+}
+.yazilar p{
+    clear: left;
+    line-height: 125%;
+    margin: 10px 0px;
+}
+.footer{
+    display: grid;
+    grid-template: 20px /1fr 1fr;
+    padding: 20px;
+    background-color: brown;
+}
+.footer p:first-child{
+    text-align: left;
+}
+.footer p:nth-child(2){
+    text-align: right;
+}
